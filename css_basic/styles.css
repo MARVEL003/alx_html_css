@@ -1,1 +1,30 @@
+/* Apply display: flex to both container tags */
+body, main {
+  display: flex;
+}
+
+/* Apply flex-direction: column to body */
+body {
+  flex-direction: column;
+}
+
+/* Apply flex-direction: row and flex: auto to main */
+main {
+  flex-direction: row;
+  flex: auto;
+}
+
+/* Apply flex: 2 to article and flex: 1 to aside */
+article {
+  flex: 2;
+}
+
+aside {
+  flex: 1;
+}
+
+/* Apply overflow-y: auto to article and aside */
+article, aside {
+  overflow-y: auto;
+}
 
