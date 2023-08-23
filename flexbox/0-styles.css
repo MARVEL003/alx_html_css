@@ -187,11 +187,7 @@
     margin: 0;
     padding: 0;
     list-style: none;
-  }
-  
-  .row::after {
-    
-  }
+    }
   
   [class*='col-'] {
     padding: 0.5rem;
