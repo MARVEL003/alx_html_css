@@ -216,7 +216,7 @@
   }
 
   .nav .nav-item + .nav-item {
-    margin-left: 2rem;
+    margin: var(--nav-item-margin);
 }
   
   .nav .nav-link {
