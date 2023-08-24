@@ -200,17 +200,25 @@
       ============================= */
   
   .nav {
-    display:flex
+    display: flex;
     margin: 0;
     padding: 0;
     list-style: none;
     text-align: center;
   }
+  
+  .nav .nav-item {
+    font-family: var(--nav-item-font-family);
+    font-weight: var(--nav-item-font-weight);
+    font-size: var(--nav-item-font-size);
+    letter-spacing: var(--nav-item-letter-spacing)
+    display: var(--nav-item-display);
+  }
 
   .nav .nav-item + .nav-item {
-   margin: 0 2rem 0 0;
+    margin-left: 2rem;
 }
-
+  
   .nav .nav-link {
     display: block;
     padding: 0.5rem 0;
@@ -231,6 +239,11 @@
     width: 0;
     height: 0.2rem;
     transition: var(--transition-duration) var(--transition-cubic-bezier);
+  }
+  
+  .nav .nav-item:hover .nav-link::before {
+    background-color: var(--color-primary);
+    width: 100%;
   }
   
   /* Header
