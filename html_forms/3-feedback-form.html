@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+</head>
+<body>
+    <h1>Feedback Form</h1>
+    <form action="process_feedback.php" method="POST" enctype="multipart/form-data">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+            <p>Feedback Options:</p>
+            <label for="excellent">Excellent
+                <input type="checkbox" id="excellent" name="feedback[]" value="Excellent">
+            </label>
+            <label for="good">Good
+                <input type="checkbox" id="good" name="feedback[]" value="Good">
+            </label>
+            <label for="average">Average
+                <input type="checkbox" id="average" name="feedback[]" value="Average">
+            </label>
+            <label for="poor">Poor
+                <input type="checkbox" id="poor" name="feedback[]" value="Poor">
+            </label>
+        </div>
+        <div>
+            <label for="file">Upload a File:</label>
+            <input type="file" id="file" name="file" required>
+        </div>
+        <div>
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+</body>
+</html>
