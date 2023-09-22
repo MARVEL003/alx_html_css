@@ -1,0 +1,1 @@
+HTML forms are a crucial part of web development and enable users to interact with web applications by submitting data to web servers.In this Project, I will be practicalizing what you need to know about HTML forms,Let's dive in.
