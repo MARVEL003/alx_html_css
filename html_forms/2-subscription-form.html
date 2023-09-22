@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Subscription Form</title>
+</head>
+<body>
+    <h1>Subscription Form</h1>
+    <form action="process_subscription.php" method="POST">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+            <p>Subscription Preference:</p>
+            <label for="monthly">Monthly
+                <input type="radio" id="monthly" name="subscription" value="monthly" required>
+            </label>
+            <label for="yearly">Yearly
+                <input type="radio" id="yearly" name="subscription" value="yearly" required>
+            </label>
+        </div>
+        <div>
+            <input type="submit" value="Subscribe">
+        </div>
+    </form>
+</body>
+</html>
