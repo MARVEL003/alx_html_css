@@ -1,0 +1,1 @@
+In this Project, I will be styling the html-advanced project with CSS, The goal is to make a replica of what was depicted in Figma where the design was gotten. Work with me to  achieve this beautiful design with CSS.
