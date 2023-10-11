@@ -7,6 +7,7 @@
   
   .styledtop {
     background-image: url("images/Object.png");
+    background-size: cover;
     height: 160vh;
     width: 100%;
   }
@@ -98,39 +99,30 @@
   
   .comment-section {
     background-color: #c271ff;
-    width: 100%;
-    height: 50vh;
+    /* width: 100%;
+    height: 50vh; */
   }
   
   .comment {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 70px;
+    padding-top: 50px;
   }
   
   .comment q {
-    font-weight: 400;
-    font-size: 22px;
+    font-weight: 70;
+    font-size: 20px;
     line-height: 33.6px;
     color: #fff;
-    width: 730px;
+    width: 600px;
     height: 68px;
-    padding-left: 30px;
-  }
-  
-  .author a {
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 33.6px;
-    color: #fff;
-    padding-left: 30px;
-    text-decoration: none;
+    padding-left: 20px;
   }
   
   .comment p {
-    font-weight: 400;
-    font-size: 22px;
+    font-weight: 100;
+    font-size: 20px;
     line-height: 33.6px;
     color: #fff;
     padding-left: 30px;
